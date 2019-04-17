@@ -117,8 +117,10 @@ mongoose.model('DATANAME', QuoteSchema); // 'DATANAME' , matching DATANAME you s
 ```
 
 Run the following installations on terminal
+
 //For Mac add sudo prior to each npm install e.g sudo npm install	
-Open new terminal and run these comands
+
+Open new terminal and run these commands
 
 ```
 yourcommandline> npm init -y
