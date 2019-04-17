@@ -12,6 +12,7 @@ var express = require('express');
 var app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 const path = require('path');
 const flash = require('express-flash');
 app.use(flash());
