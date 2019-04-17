@@ -41,13 +41,13 @@ require('./server/config/routes')(app);
 
 Create **server** folder,
 
-go inside server folder and create 3 folders: config, controllers, models
+go inside **server** folder and create 3 folders: **config**, **controllers**, **models**
 
-go inside config folder create 2 files: mongoose.js and routes.js
+go inside **config** folder create 2 files: mongoose.js and routes.js
 
-go inside controllers folder create file controllers.js
+go inside **controllers** folder create file controllers.js
 
-go inside models folder create file models.js
+go inside **models** folder create file models.js
 
 Add code below to file **mongoose.js**
 
