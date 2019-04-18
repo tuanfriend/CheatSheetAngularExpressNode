@@ -132,13 +132,16 @@ yourcommandline> npm install body-parser --save
 yourcommandline> npm install mongoose --save
 yourcommandline> npm install --save express-flash
 yourcommandline> npm install bcrypt --save <== use bcryptjs if bcrypt doesnt work
+
 yourcommandline> npm install -g @angular/cli <== one time installation only(global install), you don't need to run for future angular project
 ```
 
 Create new Angular App (Any name is okay, I called it public)
 
 ```
-yourcommandline> ng new public (If you see the question y/N? just put N and Don't forget hit Enter key when they ask for CSS) 
+yourcommandline> ng new public
+
+(If you see the question y/N? just put N and Don't forget hit Enter key when they ask for CSS) 
 ```
 
 To build the Angular app, Open another terminal and move in Angular App
