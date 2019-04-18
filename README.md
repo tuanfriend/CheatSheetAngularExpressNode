@@ -198,7 +198,7 @@ import { HttpClientModule } from '@angular/common/http';
 export class AppModule { }
 ```
 
-Open this file ...src/app/app.service.ts and change to code below
+Open this file ...src/app/http.service.ts and change to code below
 
 ```
 import { Injectable } from '@angular/core';
