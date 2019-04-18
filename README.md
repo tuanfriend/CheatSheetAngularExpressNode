@@ -139,7 +139,7 @@ yourcommandline> npm install -g @angular/cli <== one time installation only(glob
 Create new Angular App (Any name is okay, I called it public)
 
 ```
-yourcommandline> ng new public
+yourcommandline> ng new public --routing
 
 (Don't forget hit Enter key when they ask for CSS) 
 ```
