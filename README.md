@@ -182,6 +182,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HttpService } from './http.service';
 import { HttpClientModule } from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -190,12 +191,14 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     FormsModule,
+    AppRoutingModule,
     HttpClientModule
   ],
   providers: [HttpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
 ```
 
 Open this file ...src/app/http.service.ts and change to code below
