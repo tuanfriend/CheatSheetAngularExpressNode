@@ -141,7 +141,7 @@ Create new Angular App (Any name is okay, I called it public)
 ```
 yourcommandline> ng new public
 
-(If you see the question y/N? just put N and Don't forget hit Enter key when they ask for CSS) 
+(Don't forget hit Enter key when they ask for CSS) 
 ```
 
 To build the Angular app, Open another terminal and move in Angular App
